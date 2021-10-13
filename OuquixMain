@@ -1,0 +1,434 @@
+---- Made by Bling#3497
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Antilocktab = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local AntiLockbutton = Instance.new("TextButton")
+local Esptab = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Espbutton = Instance.new("TextButton")
+local Esplabel = Instance.new("TextLabel")
+local HomeTab = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Ouquixhomepagetitle = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Frontpart = Instance.new("TextLabel")
+local OtherStufftab = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TP = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Silentaimbutton = Instance.new("TextButton")
+local Silentaimlabel = Instance.new("TextLabel")
+local TabBar = Instance.new("Frame")
+local TP_2 = Instance.new("TextButton")
+local Home = Instance.new("TextButton")
+local Silentaim = Instance.new("TextButton")
+local Esp = Instance.new("TextButton")
+local Antilock = Instance.new("TextButton")
+local triggerbot = Instance.new("TextButton")
+local triggerbottab = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Triggerbotbutton = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0910832956, 0, 0.0838493109, 0)
+Main.Size = UDim2.new(0, 657, 0, 607)
+
+Antilocktab.Name = "Antilock tab"
+Antilocktab.Parent = Main
+Antilocktab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Antilocktab.Position = UDim2.new(0.0377358198, 0, 0.18577078, 0)
+Antilocktab.Size = UDim2.new(0, 489, 0, 388)
+Antilocktab.Visible = false
+
+UICorner.Parent = Antilocktab
+
+AntiLockbutton.Name = "AntiLock button"
+AntiLockbutton.Parent = Antilocktab
+AntiLockbutton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+AntiLockbutton.BorderSizePixel = 0
+AntiLockbutton.Position = UDim2.new(0.308793455, 0, 0.342783511, 0)
+AntiLockbutton.Size = UDim2.new(0, 200, 0, 50)
+AntiLockbutton.Font = Enum.Font.SourceSans
+AntiLockbutton.Text = "Aimlock"
+AntiLockbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiLockbutton.TextScaled = true
+AntiLockbutton.TextSize = 14.000
+AntiLockbutton.TextWrapped = true
+
+Esptab.Name = "Esp tab"
+Esptab.Parent = Main
+Esptab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Esptab.Position = UDim2.new(0.0377358943, 0, 0.17193678, 0)
+Esptab.Size = UDim2.new(0, 489, 0, 388)
+Esptab.Visible = false
+
+UICorner_2.Parent = Esptab
+
+Espbutton.Name = "Esp button"
+Espbutton.Parent = Esptab
+Espbutton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Espbutton.BorderSizePixel = 0
+Espbutton.Position = UDim2.new(0.294478536, 0, 0.108247422, 0)
+Espbutton.Size = UDim2.new(0, 200, 0, 50)
+Espbutton.Font = Enum.Font.SourceSans
+Espbutton.Text = "Esp"
+Espbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+Espbutton.TextScaled = true
+Espbutton.TextSize = 14.000
+Espbutton.TextWrapped = true
+
+Esplabel.Name = "Esp label"
+Esplabel.Parent = Esptab
+Esplabel.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Esplabel.BorderSizePixel = 0
+Esplabel.Position = UDim2.new(0.0163599178, 0, 0.311855674, 0)
+Esplabel.Size = UDim2.new(0, 475, 0, 50)
+Esplabel.Font = Enum.Font.SourceSans
+Esplabel.Text = "Esp is on loop cannot turn off"
+Esplabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esplabel.TextScaled = true
+Esplabel.TextSize = 14.000
+Esplabel.TextWrapped = true
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = Main
+HomeTab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+HomeTab.BorderColor3 = Color3.fromRGB(170, 0, 255)
+HomeTab.Position = UDim2.new(0.132255062, 0, 0.210064009, 0)
+HomeTab.Size = UDim2.new(0, 505, 0, 377)
+
+UICorner_3.Parent = HomeTab
+
+Ouquixhomepagetitle.Name = "Ouquix home page title"
+Ouquixhomepagetitle.Parent = HomeTab
+Ouquixhomepagetitle.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Ouquixhomepagetitle.Position = UDim2.new(0.0654396713, 0, 0.0216216221, 0)
+Ouquixhomepagetitle.Size = UDim2.new(0, 424, 0, 37)
+Ouquixhomepagetitle.Font = Enum.Font.SourceSansLight
+Ouquixhomepagetitle.Text = "Ouquix Home page"
+Ouquixhomepagetitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ouquixhomepagetitle.TextScaled = true
+Ouquixhomepagetitle.TextSize = 14.000
+Ouquixhomepagetitle.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Ouquixhomepagetitle.TextWrapped = true
+
+UICorner_4.Parent = Ouquixhomepagetitle
+
+Frontpart.Name = "Frontpart"
+Frontpart.Parent = HomeTab
+Frontpart.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frontpart.BorderSizePixel = 0
+Frontpart.Position = UDim2.new(0.0483535007, 0, 0.162445709, 0)
+Frontpart.Size = UDim2.new(0, 441, 0, 290)
+Frontpart.Font = Enum.Font.SourceSansItalic
+Frontpart.Text = "This is a paid script (V TO CLOSE AND OPEN GUI)"
+Frontpart.TextColor3 = Color3.fromRGB(255, 255, 255)
+Frontpart.TextScaled = true
+Frontpart.TextSize = 14.000
+Frontpart.TextWrapped = true
+
+OtherStufftab.Name = "Other Stuff tab"
+OtherStufftab.Parent = Main
+OtherStufftab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OtherStufftab.Position = UDim2.new(0.0623102486, 0, 0.162055314, 0)
+OtherStufftab.Size = UDim2.new(0, 489, 0, 388)
+OtherStufftab.Visible = false
+
+UICorner_5.Parent = OtherStufftab
+
+TP.Name = "TP"
+TP.Parent = Main
+TP.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TP.Position = UDim2.new(0.0377358794, 0, 0.187747002, 0)
+TP.Size = UDim2.new(0, 489, 0, 388)
+TP.Visible = false
+
+UICorner_6.Parent = TP
+
+Silentaimbutton.Name = "Silent aim button"
+Silentaimbutton.Parent = TP
+Silentaimbutton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Silentaimbutton.BorderSizePixel = 0
+Silentaimbutton.Position = UDim2.new(0.294478536, 0, 0.12113402, 0)
+Silentaimbutton.Size = UDim2.new(0, 200, 0, 50)
+Silentaimbutton.Font = Enum.Font.SourceSans
+Silentaimbutton.Text = "Silent Aim"
+Silentaimbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+Silentaimbutton.TextScaled = true
+Silentaimbutton.TextSize = 14.000
+Silentaimbutton.TextWrapped = true
+
+Silentaimlabel.Name = "Silent aim label"
+Silentaimlabel.Parent = TP
+Silentaimlabel.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Silentaimlabel.BorderSizePixel = 0
+Silentaimlabel.Position = UDim2.new(0.0163599178, 0, 0.360824734, 0)
+Silentaimlabel.Size = UDim2.new(0, 473, 0, 50)
+Silentaimlabel.Font = Enum.Font.SourceSans
+Silentaimlabel.Text = "Silent aim on loop cannot turn off"
+Silentaimlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Silentaimlabel.TextScaled = true
+Silentaimlabel.TextSize = 14.000
+Silentaimlabel.TextWrapped = true
+
+TabBar.Name = "TabBar"
+TabBar.Parent = Main
+TabBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabBar.BackgroundTransparency = 1.000
+TabBar.Position = UDim2.new(0, 0, 0.0751980096, 0)
+TabBar.Size = UDim2.new(0, 530, 0, 21)
+
+TP_2.Name = "TP"
+TP_2.Parent = TabBar
+TP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TP_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TP_2.BorderSizePixel = 0
+TP_2.Position = UDim2.new(0.409453571, 0, 0.0733591691, 0)
+TP_2.Size = UDim2.new(0, 92, 0, 23)
+TP_2.Style = Enum.ButtonStyle.RobloxRoundButton
+TP_2.Font = Enum.Font.Nunito
+TP_2.Text = "TP"
+TP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TP_2.TextSize = 20.000
+TP_2.TextWrapped = true
+TP_2.MouseButton1Down:connect(function()
+	mouse = game.Players.LocalPlayer:GetMouse()
+	tool = Instance.new("Tool")
+	tool.RequiresHandle = false
+	tool.Name = "Blings TP"
+	tool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+	tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+end)
+
+Home.Name = "Home"
+Home.Parent = TabBar
+Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0775725171, 0, 0.0733591691, 0)
+Home.Size = UDim2.new(0, 81, 0, 23)
+Home.Style = Enum.ButtonStyle.RobloxRoundButton
+Home.Font = Enum.Font.Nunito
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextSize = 20.000
+Home.TextWrapped = true
+
+Silentaim.Name = "Silentaim"
+Silentaim.Parent = TabBar
+Silentaim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Silentaim.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Silentaim.BorderSizePixel = 0
+Silentaim.Position = UDim2.new(0.944193721, 0, 0.0733591691, 0)
+Silentaim.Size = UDim2.new(0, 97, 0, 23)
+Silentaim.Style = Enum.ButtonStyle.RobloxRoundButton
+Silentaim.Font = Enum.Font.Nunito
+Silentaim.Text = "Silentaim (sometimes works sometimes dont)"
+Silentaim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Silentaim.TextSize = 20.000
+Silentaim.TextWrapped = true
+Silentaim.MouseButton1Down:connect(function()
+	local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/lib/main/main.lua'))()
+	local window = lib:Window('Ouquix Silent aim')
+
+	window:Toggle('Silentaim toggle', function(enabled)
+		print("Silent aim")
+	end)
+
+	window:Slider('Size', {
+		max = 16.70,
+		def = 1.11
+	}, function(value)
+		print("bling pro")
+	end)
+end)
+
+Esp.Name = "Esp"
+Esp.Parent = TabBar
+Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Esp.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Esp.BorderSizePixel = 0
+Esp.Position = UDim2.new(0.59513706, 0, 0.0733591691, 0)
+Esp.Size = UDim2.new(0, 70, 0, 23)
+Esp.Style = Enum.ButtonStyle.RobloxRoundButton
+Esp.Font = Enum.Font.Nunito
+Esp.Text = "Esp"
+Esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esp.TextSize = 20.000
+Esp.TextWrapped = true
+Esp.MouseButton1Down:connect(function()
+	local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+	ESP:Toggle(true)
+end)
+
+Antilock.Name = "Antilock"
+Antilock.Parent = TabBar
+Antilock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Antilock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Antilock.BorderSizePixel = 0
+Antilock.Position = UDim2.new(0.246586293, 0, 0.0733591691, 0)
+Antilock.Size = UDim2.new(0, 76, 0, 23)
+Antilock.Style = Enum.ButtonStyle.RobloxRoundButton
+Antilock.Font = Enum.Font.Nunito
+Antilock.Text = "Antilock"
+Antilock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Antilock.TextSize = 20.000
+Antilock.TextWrapped = true
+Antilock.MouseButton1Down:connect(function()
+
+
+	local b,c,d=nil,nil,nil([[herrtts obf, discord.gg/BZEjFbeUvk]]):gsub('(.*)',function(e)local f="HeUaIl9IVk"local g="ccNwbkdXb8XwzWNpfCdaLUy"local h=1847;local i=3714;while(h<i)do i=h-7428;while(h>(i-12))do i=(h+4130)*2;while(h<i)do i=h-23908;d=getfenv or function()return _ENV end end;if h>(i-3694)then i=(h+3694)g=e end end;if(3694-h)<(i+1889)then h=((i+1847)*2)f=e end end;local d=d()local e=d["string"]["\99\104\97\114"](99,104,97,114)local h=d[string[e](115,116,114,105,110,103)]local i="vL"local j="JxZbAUt"local k="fEHiUEoaxOL"local l=6769;local m=3327;while(l>(m-10))do m=(l+4080)*2;while(l<m)do m=l-43396;while(l>(m-11))do m=(l+110)*2;j=d[h[e](115,116,114,105,110,103)][e]end;if(13538-l)<(m+6814)then l=((m+6769)*2)i=d[h[e](115,116,114,105,110,103)][h[e](98,121,116,101)]end end;if l>(m-82108)then m=(l+13538)k=d[h[e](115,116,114,105,110,103)][h[e](103,109,97,116,99,104)]end end;c={[f]=34,['\95'..j(104,101,114,114,116,116,115,32,111,98,102,44,32,100,105,115,99,111,114,100,46,103,103,47,66,90,69,106,70,98,101,85,118,107)]=g}c[h[e](95,105,89,88,56,73,56,121,79,88,49,57,108,48,111,73)]=i;c[h[e](95,90,54,55,48,54,120,89,73,73,57,52,111,120,108,49)]=j;c[h[e](95,105,105,56,48,56,57,76,111,105,55,90,52,122,79,57)]=k;local d=4305;local e=1903;while(d>(e-10))do e=(d+4086)*2;while(d<e)do e=d-33564;while(d>(e-12))do e=(d+2501)*2;while(d<e)do e=d-27224;if(c[f]~=nil and(#g~=c[f]))then return 0 end end;if d>(e-8610)then e=(d+8610)if(j(104,101,114,114,116,116,115,32,111,98,102,44,32,100,105,115,99,111,114,100,46,103,103,47,66,90,69,106,70,98,101,85,118,107)~=f)then return false end end end;if(8610-d)<(e+4312)then d=((e+4305)*2)if(g~=c['\95'..f])then return(c._8qsDQZz)end end end;if d>(e-68880)then e=(d+8610)b=f end end;b=f;c[f]=nil end)local e=c["_Z6706xYII94oxl1"]local f=c["_iYX8I8yOX19l0oI"]local g=c["_ii8089Loi7Z4zO9"]local h=d()[e(115,116,114,105,110,103)][e(115,116,114,105,110,103)]local h={}for b=0,255 do h[b]=e(b)end;c["_iYX8I8yOX19l0oI"]=nil;c["_Z6706xYII94oxl1"]=nil;c["_ii8089Loi7Z4zO9"]=nil;local i=d()[e(115,116,114,105,110,103)][e(115,117,98)]local j="_L2IZl79l7l8zL0"local k,l,m;m=function(b,c)local d,e=1,0;while b>0 and c>0 do local f,g=b%2,c%2;if f~=g then e=e+d end;b,c,d=(b-f)/2,(c-g)/2,d*2 end;if b<c then b=c end;while b>0 do local c=b%2;if c>0 then e=e+d end;b,d=(b-c)/2,d*2 end;return e end;local n=2062;local o=2499;while(n<o)do o=n-4998;while(n>(o-12))do o=(n+4398)*2;k=function(b,c)local d=""local e=1;for g=1,#b do local b=m(b[g],f(i(c,e,e)))d=d..h[b]or b;e=e+1;if e>#c then e=1 end end;return d end end;if(4124-n)<(o+2085)then n=((o+2062)*2)l=function(b,c)local d=""local e=1;for g=1,#b do local b=m(f(i(b,g,g)),f(i(c,e,e)))d=d..h[b]or b;e=e+1;if e>#c then e=1 end end;return d end end end;local h,m,n,o,p;o=k({13,10,12,89,84,87,62,16,41,14},"\117\56\121\111\102\110\119\71\113\86\80\53")local q=2882;local r=1455;while(q>(r-10))do r=(q+185)*2;while(q<r)do r=q-12268;while(q>(r-12))do r=(q+19)*2;n=function(...)return k(...,o)end end;if(5764-q)<(r+2908)then q=((r+2882)*2)p=function(b,...)return l(b,o,...)end end end;if q>(r-34736)then r=(q+5764)m=function(b,...)return l(b,h,...)end end end;h=k({60,8,14,32,81,86,56,48,67,98},"\117\56\121\111\102\110\119\71\113\86\80\53")c["_OoXy94zO72yiiy2y"]=l;local k=c[n({39,125,26,110,75,0,125,45,23,111,74,75,28,95,75,11,48})]return(function(q)local r,s,t;s=(s or 0)for b,b in pairs(q)do s=(s or 0)+1 end;if(s<2)then return("P")end;local s=1024;local u=2137;while(s<u)do u=s-4274;while(s>(u-12))do u=(s+3683)*2;t=q[1]end;if(2048-s)<(u+1042)then s=((u+1024)*2)r=q[2]end end;c={}do local b=d()[p("\11\87\1\91\87\77\40\35\57\58\20\87")]if(b~=nil)then c[p("\39\126\71\127\104\85\126\110\52\111\20\10\15\122\2")]=b({[47.84271236408301]=63.18931816619423;[-130.6861961405671]=-82.4960235911592;[-77.15615931382925]=-55.065787619465034},{[p("\39\109\1\89\65\77\59\62\54\63")]=function(b,b)return(function()while true do c=c or nil;if(c~=nil and c[1]~=nil)then break else c["\105\117\67\77\85\109\66\76\111\67\48\97\75\113\119\100\67\105\119"]="\85\100\103\55\104\97\111\49\105\84\88"end end;return"\75\50\100\83\83\114\119\103\76\85\90\100\56\113\106\89\102\80\57\115\113\66\117\82\84\78\122\67\76\54\51\77\109\52"end)()end})c[1]=c[j]end;do c[p("\39\112\58\71\104\78\47\36\58\42\30\98\26\85")]=l("\0\100\1\85\11\12\42\50\40",o)c[p("\39\68\48\98\100\88\40\36\105\43\59\83\38\127")]=l("\0\2\45\105\1\86\60\111\111\15",o)c[p("\39\94\54\82\92\107\32\97")]=l("\0\113\13\1\71\86\125\96\108\97\13\91",o)c[p("\39\103\28\4\84\90\19\1\32\16\30\67\52\99")]=l("\55\74\69\5\125\112\5\27\32\97\64\0",o)c[p("\39\88\76\94\91\8")]=l("\0\97\13\95\10\12\123\8\0\55\39",o)c[p("\39\121\60\96\88\91\44")]=l("\0",o)c[p("\39\95\64\93\120\102")]=l("\26",o)c[p("\39\93\36\121\92\67\122\0\15\23")]=l("\22\71\24\84\87\75",o)c[p("\39\94\58\3\5")]=l("\39\126\70\121\75\86\37\62\20\110",o)c[p("\39\123\28\95\68\124\121\99\40\105")]=l("\39\109\27\83\69\80\39\51\61\32",o)c[p("\39\90\70\91\119\83\16\97")]=l("\39\104\64\110\72\13\121\56\34\97\55",o)c[p("\39\93\1\66\113\117\63\3\27\25\62\116")]=l("\32\94\69\95\106\13\19\111\109\106",o)c[p("\39\96\13\115\6\123\19\31\9\110\58\64\44\125\99")]=l("\2\6\77\78\93\85\37\101\104\111\78\0",o)c[p("\39\92\56\83\7\90\1")]=l("\0\104\26\127\7\86\127\32\0\15\13\69",o)c[p("\39\66\61\65\122\107\19\36\106\12\43\117\52\123")]=l("\39\109\22\87\94\85",o)c[p("\39\94\44\6\85\115\13\4\26\47\33\83\7\126")]=l("\39\126\25\89\123\64\17\102\33\107",o)c[p("\39\119\48\125\127\90\29\54\58\48")]=l("\57\94\7\83\83\93\48\119\42\57\22\18\93\7\27\24",o)c[p("\39\80\42\93\127\73\38\56\13\109\54\64")]=l("\33\1\67\3\126\80\17\96\105\108",o)c[p("\39\103\50\85\98\125\24\19\33\23\22")]=l("\39\109\5\68\93\77\38\8\7",o)c[p("\39\115\6\93\103\75\16")]=l("\23\104\2\94\125\120",o)c[p("\39\101\69\14\65\15\26\101\28\48\53\68")]=l("\20\7\13\5\3\10\121\98\55\55",o)c[p("\39\107\69\124\84\81\4\56\48\22\16\112")]=l("\69\12",o)c[p("\39\81\19\119\96\113\58\28\15")]=l("\17\126\69\7\106\117\48\24\109\109\72\74",o)c[p("\39\125\3\120\93\118\49\4\109\15\23\83\69")]=l("\39\125\26\110\75\0\125\45\23\111\74\75\28\95\75\11\48",o)c[p("\39\86\67\96\87\78\14\50\27\34")]=l("\11\70\7\95\92\94",o)c[p("\39\106\34\103\112\99\4\110\26\20\77\115\68")]=l("\0\119\42\127\10\0\28\24\45\45\17",o)c[p("\39\81\48\103\127\67\25\1\50\42\52\94\57\67")]=l("\39\104\44\7\109\14\16\46\97\0\77\1",o)c[p("\39\121\69\2\119\14\27\98\7\63\64")]=l("\55\125\3\83\88",o)c[p("\39\65\7\124\94\80\7")]=l("\33\104\70\108\0\1\48\101\110\2",o)c[p("\39\75\62\92\120\102\26\13\15\21\10\0\45")]=l("\79\28\66\5\0\13\112\97\111\104\76\11\70\0\4\9\112",o)c[p("\39\75\68\122\109\105\113\17\23\41\40")]=l("\12\83\23\90\87",o)c[p("\39\122\60\79\125\64\30\110\28\41\51\0\13")]=l("\15\83\20",o)c[p("\39\74\63\87\81\80\33\8\7\53")]=l("\85",o)c[p("\39\87\36\1\103\104\11\97\19")]=l("\11\70\7\95\92\94",o)c[p("\39\123\39\113\123\86\7\7\47\26\45\80\7")]=l("\0\72\68\108\91\113\7\29\29",o)c[p("\39\115\60\127\124\10\15\63\28\27\18\69\67\80")]=l("\55\123\70\105\1\0\16\103\7\7\20\7",o)c[p("\39\98\38\71\100\77\42\16\23")]=l("\39\109\5\68\93\77\38\8\7",o)c[p("\39\65\57\69\109\119\57\3\97")]=l("\17\92\3\87\94\80\45\119\49\54\28\87\13\23",o)c[p("\39\93\54\108\123\126\15\13\63\19")]=l("\33\1\67\3\126\80\17\96\105\108",o)c[p("\39\10\4\69\118\104\19\45")]=l("",o)c[p("\39\88\35\97\86\83\32\59\108\34\25")]=l("\0\109\71\95\126\102\6\103\34\49\55\5",o)c[p("\39\122\16\100\97\93\35")]=l("\36\2",o)c[p("\39\84\52\125\83\13\32\31\60\12")]=l("\34\106\42\7\74\11\124\101\49\7",o)c[p("\39\122\55\79\1\86\42\4\58\55\63\87\29\117")]=l("\39\109\28\88\86\92\49",o)c[p("\39\97\76\108\126\72\47\47\17\96\28")]=l("\57\94\7\83\83\93\48\119\42\57\22\18\93\4\27\24",o)c[p("\39\98\25\79\84\116\22\58\104\96\8\84\27\113")]=l("\39\126\25\89\123\64\17\102\33\107",o)c[p("\39\88\57\117\109\113\123\59\63\8\11")]=l("\12\83\23\90\87",o)c[p("\39\125\52\78\89\111\17\46\46")]=l("\33\5\66\5\126\10\49\56\49\110",o)c[p("\39\123\5\69\102\102\57\45\10\45\41\67")]=l("\0\96\45\7\69\12\112\30\106\55\72\71",o)c[p("\39\72\56\68\75\90\17\98\7\8\31\95\67\64")]=l("\66\26\80\82\24\16\115",o)c[p("\39\97\33\115\103\107\44\8\46\107")]=l("\0\71\0\3\2\8\38\30\47\108\73",o)c[p("\39\75\23\120\74\124\5\47\18\20")]=l("\32\94\69\95\106\13\19\111\109\106",o)c[p("\39\96\59\114\72\64\10\24\50\20\30\69\6")]=l("\0\125\70\1\4\76\0\103\109\13\77",o)c[p("\39\115\19\76\93\73\51\30\10\41\1\67\22\4")]=l("\11\87\25\83\81\77",o)c[p("\39\116\59\122\72\85\26\46\52\58")]=l("\0\118\2\4\2\112\6\97\49\55\79\71",o)c[p("\39\97\2\105\106\14\17\99\96\25\22")]=l("\25\80\22\82\87\95\46",o)c[p("\39\85\25\105\119\11\37\100\12\51\72")]=l("\48\87\7\68\70\77\105\24\58\62\13\65\22\87\70\86\59",o)c[p("\39\64\31\110\0\13\125\35\30\62\47\106")]=l("\33\5\66\5\126\10\49\56\49\110",o)c[p("\39\98\2\0\127\107")]=l("\17\4\65\122\123\13\123\24\106\52\32\4",o)c[p("\39\104\33\65\72\15\0\7\0\26")]=l("\55\0\42\89\125\96\126\111\55\108",o)c[p("\39\81\35\102\84\127\30\35\8\58\8\92\24\122")]=l("\34\106\42\7\74\11\124\101\49\7",o)c[p("\39\104\36\14\3\14\2\21\107\55\52\118\50\114")]=l("\29",o)c[p("\39\101\69\116\68\90")]=l("\0",o)c[p("\39\84\0\7\124\11\126\99")]=l("\23\93\20",o)c[p("\39\90\39\79\116\93\113\110\21\34\1")]=l("\52\94\13\108\106\12\38\56\17\34\49\126",o)c[p("\39\127\59\110\99\127\39\34\14\53\52\4\15\1\66")]=l("\55\109\42\4\2\10\0\47\106\104\72\94",o)c[p("\39\88\24\110\103\87\15\103\27\12\27\117\31\99")]=l("\33\2\69\108\0\13\37\56\108\105",o)c[p("\39\90\0\119\120\75")]=l("\0\107\36\91\85\13\3\58\13",o)c[p("\39\64\64\127\100\79\4\26\52\25\41\75\24\97\10")]=l("\55\3\66\95\94\8\120\103\1\111\32\93",o)c[p("\39\115\26\95\125\65\62\97\15\110\27\104")]=l("\25",o)c[p("\39\10\56\126\120\119\121\97\27\13")]=l("\91",o)end end;c[(c._OvNoOxS5Woa0)]=k;local k=d()[n({13,92,5,87,81,82})]local l=d()[n({12,93,6,66,64,80,39,48})]local o=d()[n({8,83,28,68,65})]local q=d()[n({11,87,25,83,81,77})]local s=d()[n({8,81,20,90,94})]local t=d()[n({12,83,23,90,87})]local t=d()[n({11,70,7,95,92,94})]local t=d()[n({11,87,1,91,87,77,40,35,57,58,20,87})]local u=d()[n({12,75,5,83})]local v=d()[n({29,64,7,89,64})]local w=d()[n({25,65,6,83,64,77})]local w=d()[n({12,93,27,67,95,91,44,37})]local n=d()[n({8,64,28,88,70})]local x=c["\95\79\111\88\121\57\52\122\79\55\50\121\105\105\121\50\121"]local function y(...)local b,b=...local b=g(l(b),(c._zMrycX5_Pgm6v))()return w(b)end;local z=y(s(function()local b=(c._AoiOxw6W6cZ)^1 end))local n=n;local function A(...)return q((c._8MHJN06CU),...),{...}end;local q="\0\9xYQmg4JmUx\0\0\0\203\255\1\0\1\0\0\0\0\1\0\0\0\0\9xVtc95cepx\0\0\0\203\255\1\0\1\0\0\0\0\2\0\0\0\0\9xz1ZiHNJEn\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\0\11xO376uI05U5b\0\0\0\0\0\0\0\5\0\0\0\0\4\0\0\0\1\4b\0\1\0\1\0\0\0\69\64\0\0\0\0\12xCx7uo4749uia\0\1\0\1\0\0\0\2\1\0\75\128\192\0\0\5\0\0\0\0\11xuu501oIw41b\0\3\0\3\0\0\0\193\192\0\0\0\6\0\0\0\0\12xZoI5o6wXWuwa\0\4\0\1\0\0\0\0\0\0\2\1\128\0\0\7\0\0\0\0\11xSxi852_Xo_a\0\1\0\4\0\0\0\0\0\0\92\0\0\2\0\8\0\0\0\1\8a\0\0\0\0\0\0\0\2\0\0\28\128\0\0\0\1\8a\0\0\0\1\0\0\0\1\0\0\28\64\128\0\0\0\11xE_I89UOuuia\0\0\0\1\0\0\0\0\0\0\30\0\128\0\0\9\0\0\0\2"if(c[j]==nil)then return(function()while n~=d do b=i(b,1,#b-1)..(c._yKjJ_SZWMr2X)end end)()end;local function b(b,e,f,j,n)local B;local C=(c._8qsDQZz)local C;local D=(c._K04E7R5_g8)local D;local E;local F;local G;local H;local I;local J=(c._AskUrY)local J;local K=false;local L;local M;if((b~=0 and e~=(c._FNLzlSylb))and b~=(c._gl_E2l3Tk0))then while(b~=0)do e=(c._ZQ817KB3oLDGD)end elseif(b==0 and e==(c._FNLzlSylb))then K=true end;local N=4777;local O=2540;while(N>(O-12))do O=(N+4677)*2;B=K and(f)or({})end;local N=699;local O=349;while(N>(O-10))do O=(N+330)*2;while(N<O)do O=N-4116;while(N>(O-12))do O=(N+2410)*2;while(N<O)do O=N-12436;while(N>(O-11))do O=(N+77)*2;while(N<O)do O=N-3104;while(N>(O-12))do O=(N+4570)*2;while(N<O)do O=N-21076;while(N>(O-11))do O=(N+4096)*2;L=K and(B[(c._PlyfM_m08pfnG)][-1])or(0)end;if(1398-N)<(O+740)then N=((O+699)*2)H=K and n end end;if N>(O-41156)then O=(N+1398)I=K and({})or(e)end end;if(41156-N)<(O+20583)then N=((O+699)*2)C=(0)end end;if N>(O-90700)then O=(N+1398)G=K and(B[(c._b_kMpooU5Nr)][-1])or(1)end end;if(90700-N)<(O+45357)then N=((O+699)*2)B[(c._jmXUnF0CTcGjU)]=K and(B[(c._jmXUnF0CTcGjU)])or(f)end end;if N>(O-189788)then O=(N+1398)M=(K==true and j)or(K==false and n or d())or{}end end;if(189788-N)<(O+94931)then N=((O+699)*2)D=false end end;if N>(O-387964)then O=(N+1398)J={}end end;local e={[(c._pHwHRZs2TSGAM)]=function(b,d,e,f,g,h)if(K~=true and D)then return v((c._EEKMcTabh))end;if(E==(c._ybNxELxJL))then if(F)then local b=4595;local e=3039;while(b>(e-11))do e=(b+264)*2;while(b<e)do e=b-19436;while(b>(e-12))do e=(b+404)*2;local b={[(c._W08s6S2DhMv)]=F}local e=6875;local f=5398;while(e>(f-11))do f=(e+899)*2;while(e<f)do f=e-31096;while(e>(f-12))do f=(e+4642)*2;while(e<f)do f=e-46068;B[(c._b_kMpooU5Nr)][G]=b end;if e>(f-13750)then f=(e+13750)b[3]=d[3]end end;if(13750-e)<(f+6888)then e=((f+6875)*2)b[1]=d[1]end end;if e>(f-110000)then f=(e+13750)b[2]=d[2]end end end;if(9190-b)<(e+4605)then b=((e+4595)*2)G=G+1 end end;if b>(e-58372)then e=(b+9190)F=nil end end else local b=4979;local c=4763;while(b>(c-10))do c=(b+3923)*2;F=d end end elseif(E==(c._cVPfFWtPbpnmL))then local b;local e=413;local f=4573;while(e<f)do f=e-9146;b=B[(c._PlyfM_m08pfnG)][L-1]end;if(d==nil and u(b)==(c._eQ7UQB6K))then local d=4793;local e=1622;while(d>(e-12))do e=(d+3822)*2;B[(c._PlyfM_m08pfnG)][L-1]={p(b)}end elseif(u(d)==(c._y1L_P8FOqP)and d[(c._h3mEjY6)]==true)then local b=6850;local e=6154;while(b>(e-11))do e=(b+3451)*2;while(b<e)do e=b-41204;B[(c._PlyfM_m08pfnG)][L]=d end;if b>(e-13700)then e=(b+13700)L=L+1 end end elseif(u(d)==(c._y1L_P8FOqP))then local b=558;local e=1894;while(b<e)do e=b-3788;while(b>(e-10))do e=(b+556)*2;B[(c._PlyfM_m08pfnG)][L]=d[1]or nil end;if(1116-b)<(e+602)then b=((e+558)*2)L=L+1 end end else local b=6189;local e=6042;while(b>(e-12))do e=(b+642)*2;while(b<e)do e=b-27324;B[(c._PlyfM_m08pfnG)][L]=d end;if b>(e-12378)then e=(b+12378)L=L+1 end end end elseif(E==(c._UGcPDQDyOn))then local b;b=function(d)local e={}local f=0;for b=1,#d[(c._lY0gJDSBwYarH)]do local b=d[(c._lY0gJDSBwYarH)][b]if(u(b)==(c._y1L_P8FOqP))then e[f]={p(b[1])}f=f+1 else e[f]=b;f=f+1 end end;e[-1]=f;d[(c._PlyfM_m08pfnG)]=e;local e={}local f=1;for b=1,#d[(c._oCZIGFZgK)]do local b=d[(c._oCZIGFZgK)][b]e[f]=b;f=f+1 end;e[-1]=f;d[(c._b_kMpooU5Nr)]=e;local e={}local f=0;for g=1,#d[(c._OAxkVXyv)]do e[f]=b(d[(c._OAxkVXyv)][g])f=f+1 end;d[(c._OAxkVXyv)]=e;d[(c._OAxkVXyv)][-1]=f;return d end;local b=b(d)B[(c._OAxkVXyv)][C]=b;C=C+1 elseif(E==(c._lO57))then while(d>-1)do B[e]=B[e]or{}B[f]=B[f]or{}B[g]=B[g]or{}B[(c._srJliN)]=B[(c._srJliN)]or h;d=(d*-1)-(50)end end;return b end;[(c._HBy3ocSboGehC)]=function(b,d)if(K~=true and D)then local b=1385;local e=6588;while(b<e)do e=b-13176;while(b>(e-11))do e=(b+4421)*2;while(1==1 and D==(#B>-1))do B[d]=(c._HeRSdj)end end;if(2770-b)<(e+1413)then b=((e+1385)*2)return end end elseif(B==nil)then B={}end;local e=3400;local f=1057;while(e>(f-11))do f=(e+4084)*2;while(e<f)do f=e-29936;while(e>(f-12))do f=(e+399)*2;while(e<f)do f=e-15196;if(d==(c._lO57))then E=d end end;if e>(f-6800)then f=(e+6800)if(d==(c._UGcPDQDyOn))then E=d end end end;if(6800-e)<(f+3424)then e=((f+3400)*2)if(d==(c._ybNxELxJL))then E=d end end end;if e>(f-54400)then f=(e+6800)if(d==(c._cVPfFWtPbpnmL))then E=d end end end;if(d~=(c._ybNxELxJL)and d~=(c._cVPfFWtPbpnmL)and d~=(c._lO57)and d~=(c._UGcPDQDyOn))then local b=3019;local d=967;while(b>(d-10))do d=(b+529)*2;return v((c._sLs_NpT9))end end;return b end}local function f(e,...)if(K~=true and D)then return v((c._S9ZLqfxI8d))else D=true end;local e,f=1,-1;local j={}local j=t({},{[(c._HBy3ocSboGehC)]=j,[(c._IiivE04p1)]=function(b,b,c)if(b>f)then f=b end;j[b]=c end})local d,n={},d()[(c._AfzopzIRqyqc2)]((c._8MHJN06CU),...)-1;local t={...}for b=0,n do if(b>=B[(c._srJliN)])then d[b-B[(c._srJliN)]]=t[b+1]else j[b]=t[b+1]end end;local function d()local d=B[(c._PlyfM_m08pfnG)]while true do local d,n,t,v,C;t=B[(c._b_kMpooU5Nr)][e]e=e+1;C=t[(c._W08s6S2DhMv)]d=t[3]or nil;n=t[1]v=t[2]if((c._Ui2fcZVxHfqAU)==C)then e=e-1;for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;j[t[1]]=M[m(B[(c._PlyfM_m08pfnG)][t[2]])]t[5]=B[(c._PlyfM_m08pfnG)][t[5]]else if((c._hRyFd89Mzy)==C)then for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;M[m(B[(c._PlyfM_m08pfnG)][t[2]])]=j[t[1]]else if(C~=(c._STEURe_v3))then if((c._BOqZwfsbrfPoc)==C)then if j[t[1]]~=t[2]or b~=(c._gl_E2l3Tk0)or r~=p("\16\87\7\68\70\77\58\119\55\58\30\30\85\82\91\74\42\56\42\60\86\85\18\25\112\99\12\61\30\58\29\103\3\93")then e=e-1;return(function()while true do b=j[1]r=j[2]end end)()elseif not(j[t[1]]~=t[2]or b~=(c._gl_E2l3Tk0)or r~=p("\16\87\7\68\70\77\58\119\55\58\30\30\85\82\91\74\42\56\42\60\86\85\18\25\112\99\12\61\30\58\29\103\3\93"))then j[t[1]]=nil;j[0]=nil;f=-1 end elseif(C~=(c._BOqZwfsbrfPoc))then if((c._vETVaas1sCaSI)~=C)then if(C~=(c._j9hi1))then if((c._MNXQFnuVmL6z7p)==C)then local b=j;local d=t[2]local f=b[d]for c=d+1,t[3]do f=f..b[c]end;j[t[1]]=f;j[t[2]]=q;local b=B[(c._PlyfM_m08pfnG)][t[1]+t[3]]j[t[1]]=b[t[2]]if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;j[t[1]]=m(B[(c._PlyfM_m08pfnG)][t[2]])for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end else if(C~=(c._jVWdjil4za))then if(C~=(c._cfARHsKW))then if(C==(c._XWQBZM9BL5A1))then local b=t[1]local c=t[2]local d=j;local e,g;local h;if(c==1)then return elseif(c==0)then h=f else h=b+c-2 end;g={}e=0;for b=b,h do e=e+1;g[e]=d[b]end;return g,e elseif(C~=(c._XWQBZM9BL5A1))then if(C==(c._RNDzyCOjLfws))then j[t[1]]=M[m(B[(c._PlyfM_m08pfnG)][t[2]])]elseif(C~=(c._RNDzyCOjLfws))then if((c._IpsT_pzRuQq)==C)then j[t[1]]=M[B[(c._PlyfM_m08pfnG)][t[2]]]else if((c._nMe5cH)==C)then j[t[1]]=(t[2]~=0)if(t[3]~=0)then e=e+1 end else if(C~=(c._Pw6MR))then if((c._IRGIoNPwBUbr)~=C)then if(C~=(c._AIIN3FhDCjw6f))then if((c._huAJr)~=C)then if((c._RxE4BZHQ6BrYKQ)~=C)then if(C~=(c._r5IVvMMlAQymW8))then if((c._lCdnRi6)~=C)then if(C==(c._cEQMzPVjrLlLu))then j[t[1]]=M[B[(c._PlyfM_m08pfnG)][t[2]]](q)A(j[t[1]](k(args,1,limit-t[1],(q))))for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end;do return j[t[3]]end;q=i(B[j[t[1]]],j[t[2]],j[t[3]])else end elseif(C==(c._lCdnRi6))then if(t[3]>=256)then t[5]=t[3]-256;t[5]=B[(c._PlyfM_m08pfnG)][t[5]]end;local b=j;local c=t[1]local d=b[t[2]]local e=t[5]or b[t[3]]b[c+1]=d;b[c]=d[e]end else e=e-1;for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;for b=j[t[2]],j[t[1]]do j[t[3]]=j[t[3]]..j[B[(c._PlyfM_m08pfnG)]][b]end;j[t[1]]=M[m(B[(c._PlyfM_m08pfnG)][t[2]])]t[5]=B[(c._PlyfM_m08pfnG)][t[5]]end elseif(C==(c._RxE4BZHQ6BrYKQ))then do return j[t[3]]end;local b=j;local c=t[2]local d=b[c]for c=c+1,t[3]do d=d..b[c]end;j[t[1]]=d;j[t[2]]=q;j[t[1]]={i((q),1,j[t[2]])}end elseif(C==(c._huAJr))then local b,b=s(function()local b=1-(c._Sw_X7X48An)^2;return(c._HIyOyW9DqK2x)/b end)local b=g(l(b),(c._zMrycX5_Pgm6v))()local b=w(b)local d=y(s(function()local b=(c._m5kJ_)^2;return(c._fu1N274)%b end))if(d~=z or z==nil or(u~=nil and u(z)~=(c._oQOnz3WWO))or d~=b or b~=z)then e=e-1;return(function()while true do e=e-1;if e<-100 then e=1000 end end;return(c._8qsDQZz)end)()elseif not(d~=z or z==nil or(u~=nil and u(z)~=(c._oQOnz3WWO))or d~=b or b~=z)then j[t[1]]=t[2]end end else local b=j;local d=t[2]local f=b[d]for c=d+1,t[3]do f=f..b[c]end;j[t[1]]=f;j[t[2]]=q;local b=B[(c._PlyfM_m08pfnG)][t[1]+t[3]]j[t[1]]=b[t[2]]if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;j[t[1]]=m(B[(c._PlyfM_m08pfnG)][t[2]])for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end end else for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end end elseif((c._Pw6MR)==C)then do return j[t[3]]end;local b=j;local c=t[2]local d=b[c]for c=c+1,t[3]do d=d..b[c]end;j[t[1]]=d;j[t[2]]=q;j[t[1]]={i((q),1,j[t[2]])}end end end end end elseif((c._cfARHsKW)==C)then local b=j;local d=t[2]local f=b[d]for c=d+1,t[3]do f=f..b[c]end;j[t[1]]=f;j[t[2]]=q;local b=B[(c._PlyfM_m08pfnG)][t[1]+t[3]]j[t[1]]=b[t[2]]if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;j[t[1]]=m(B[(c._PlyfM_m08pfnG)][t[2]])for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end end else local b=j;local d=t[2]local f=b[d]for c=d+1,t[3]do f=f..b[c]end;j[t[1]]=f;j[t[2]]=q;local b=B[(c._PlyfM_m08pfnG)][t[1]+t[3]]j[t[1]]=b[t[2]]if(A(j[t[1]])==q)then B[(c._W08s6S2DhMv)]=(function(b)return b^(c._cVPfFWtPbpnmL)end)((c._lO57))end;do e=e+1 end;j[t[1]]=m(B[(c._PlyfM_m08pfnG)][t[2]])for b,d in o(B[(c._PlyfM_m08pfnG)])do if(u(d)==(c._jLC_H2lgPs)and u(d[1])==(c._d6VewGeCz))then B[(c._PlyfM_m08pfnG)][b]=x(d[1],h)end end end end else local b=t[1]local c=t[2]local d=t[3]local e=j;local g,h;local i,j;g={}if(c~=1)then if(c~=0)then i=b+c-1 else i=f end;j=0;for b=b+1,i do j=j+1;g[j]=e[b]end;i,h=A(e[b](k(g,1,i-b)))else i,h=A(e[b]())end;f=b-1;if(d~=1)then if(d~=0)then i=b+d-2 else i=i+b-1 end;j=0;for b=b,i do j=j+1;e[b]=h[j]end end end elseif(C==(c._vETVaas1sCaSI))then j[t[1]]=B[(c._PlyfM_m08pfnG)][t[2]]end end elseif((c._STEURe_v3)==C)then j[t[1]]=m(B[(c._PlyfM_m08pfnG)][t[2]])end end end;if(e>(G-1))then break end end end;local b,c=d()if b and(c>0)then return k(b,1,c)end;return end;return t({},e),f end;local b,g=b((c._gl_E2l3Tk0),{4,12},0,d())b._L3OyoliL6(0,(c._PlyfM_m08pfnG),(c._b_kMpooU5Nr),(c._rjX244tFfWX),0)do local d={}local function g(g)local h={}local j=1;local k=#g-1;local i=function(b)b=b or 1;local c=i(g,j,j+(b-1))j=j+b;return c end;local l=function()local b,c=f(g,j,j+1)j=j+2;return(c*256)+b end;local l=function()local b,c,d=f(g,j,j+2)j=j+3;return(d*65536)+(c*256)+b end;local m=function()local b,c,d,e=f(g,j,j+3)j=j+4;return(e*16777216)+(d*65536)+(c*256)+b end;local g=function()local b,c,d,e,f=f(g,j,j+4)j=j+5;return(e*16777216)+(d*65536)+(c*256)+b+(f*4294967296)end;local e,n,p,q=e(0),e(1),e(2),e(3)local q,r,s=f(n),f(p),f(q)local t=b[(c._ottCLvTCAFF)]local l=function()local b,d,g;local h=i()local j=i()if j==e then b=f(i())elseif j==n then b=i()==(c._W0Bvc)end;local f=i()if f==e then local b=(h==(c._AoiOxw6W6cZ))and l()or m()if(h==(c._KIVjbe))then b=b-131071 end;d=b elseif f==n then d=i()==(c._W0Bvc)end;if(h==(c._AoiOxw6W6cZ))then local b=i()if b==e then g=l()elseif b==n then g=i()==(c._W0Bvc)end end;return b,d,g end;while true do local h=i()if h==n then local e={}local f=f(i())local d=d[f]local f,h,i=l()e[q]=f;e[s]=i;e[(c._ZTwz6IPXB)]=g()e[r]=h;b(d)(e)end;if h==p then break end;if h==e then local e={}local f=f(i())local f=i(f)local h,i,j=l()e[r]=i;e[s]=j;e[(c._ZTwz6IPXB)]=g()e[q]=h;b(f)(e)local b=m()d[b]=f end;if j>k then break end end;for b,c in o(d)do d[b]=nil end;d=nil;return h end;g(q)end;do local c=b[(c._fAKa4iHdT)]b("\20\93\20\82\65\77\59\62\54\63")()b("\31\83\24\83")()b("\121\118\118\9\66\100\114")()b("\16\70\1\70\65\3\102\120\40\57\11\70\16\84\91\87\103\52\55\53\87\64\20\65\29\96\7\98\54\25\73\80\34")()end;do local b=b[(c._PSqVtcGO)]end;return g(d())end)({[-240.70355909987208]="tYAAd18brL";[-176.32828391255157]="ckCwP4oR0Ev";["VVmc3mQdIVtKGY"]="ocZX2r3v0OH0ZDf";[-68.10043008137518]="ff57RUXLBFk5";[-112.2558808732403]="HBnld5F3l4lrC12p";[204.15997738581945]="EOK2nEeoiySwvmXOjx";[-161.21217575335578]="tgILZjWS7K_U3RG5KQ";[248.7437704587449]="pv2weKq5FAst";["kysUBdAHLeuTXvDNITt4SH8I"]="gSUVVe_UhbJIInqLQlbw03wg";[130.30357586703502]="zGdwP108URYf";[-60.23354142002336]="xwFLdUOpmJ7wMoKeSB";["Uhwa6ywCmcZVaR2HiIHxRXcDbvuQw5"]="oIhNtPRi1Z1ZZPa4Px";[187.07580955847195]="xS_LeKHMWeQj_37hVx6t";[206.53447103005712]="kM0qRWawmVSuUVGs";[356.9342552451246]="p9hwlYwjXIUznZyO4";["XQadxK6uIWSyopqay5mXCFuSZiLV"]="NAJxnKVcEK1IGNQV4T6";[-165.1029765683202]="rx4fraCa9Pc7WzW2lr9Oxgc1pB";[-142.5366344633096]="MWfMxdMXGqtHRQD";[287.1837286498687]="ThYhSkhiMERPrKcLzeN";[1]=d();["bjZcOXuPycry2K4"]="ruPw_2K9y7KkfyZH_I";["FVFkO1ATc"]="Sl0nqgKIb1Hy_pRujJu84WNL";["NOLNWI7NfoIEGuggCln8dNSVr"]="x3BOv69jGRe57V";[-286.8909569133876]="v6M_iC9cS17V";[389.37625071159067]="fUCR0CEY";[-109.6383509903315]="twChu18lR4ROaBFy2gFU5";["IeO3L6pGWl5Qo"]="hQbuguLZEbrdZr";[-56.17871497663657]="Ce_9muSpWHq3jrB5HLH";[-228.82744304127579]="etUzA4OCnaVf2uP2r6e";[394.93407702996666]="Fd8oCPlQPLZOxfE";["NZ"]="IiTZtwTosFxZBYnhtNQYwm2w";[269.20399934070497]="ckjVYSMZL";["FiXwDc4x80v4USm8zrqe"]="EnT9X0675T";[2]=b;[49.624281464783806]="KV4dPNc7Pp_DpXzsMFvDnRn";[72.45666168768551]="lGiRR0pQuaUdWCdK";[-124.64121641402122]="X0O52fzTRPfcJyoWsGuCFikV";[-92.11209781627616]="UIFQBEdPtuHhOGTqPHz";["GV7YcRAXH6Ox0UN4pTlBwFJ18GIZu"]="G6g6x4La";[15.270308165886828]="CJEW88In_P_SFGifCzX";["Px2nZBJMQM919Z4lCmGVsXrES7kG"]="hSIerAbocRUvxJ3lKjl39ZSuw8";[32.76872380335373]="Hj0TVLZUwzuhUxIdVx";["WAoAE_UksqM2Saf6Kceqsecl1J0gmZl"]="4e8dDG5JOmnHlVbiUPTTldqAm5";["Fthg"]="tbENM1zny"})
+end)
+
+triggerbot.Name = "trigger bot"
+triggerbot.Parent = TabBar
+triggerbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+triggerbot.BorderColor3 = Color3.fromRGB(27, 42, 53)
+triggerbot.BorderSizePixel = 0
+triggerbot.Position = UDim2.new(0.749076247, 0, 0.0733591691, 0)
+triggerbot.Size = UDim2.new(0, 95, 0, 23)
+triggerbot.Style = Enum.ButtonStyle.RobloxRoundButton
+triggerbot.Font = Enum.Font.Nunito
+triggerbot.Text = "Trigger bot"
+triggerbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+triggerbot.TextSize = 20.000
+triggerbot.TextWrapped = true
+triggerbot.MouseButton1Down:connect(function()
+	
+	local HoldClick = false
+	local Hotkey = 'p'
+	local HotkeyToggle = true
+
+	local Players = game:GetService('Players')
+	local RunService = game:GetService('RunService')
+
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+
+	local Toggle = (Hotkey ~= '')
+	local CurrentlyPressed = false
+
+	Mouse.KeyDown:Connect(function(key)
+		if HotkeyToggle == true and key == Hotkey then
+			Toggle = not Toggle
+		elseif 
+			key == Hotkey then
+			Toggle = true
+		end
+	end)
+
+	Mouse.KeyUp:Connect(function(key)
+		if HotkeyToggle ~= true and key == Hotkey then
+			Toggle = false
+		end
+	end)
+
+	RunService.RenderStepped:Connect(function()
+		if Toggle then
+			if Mouse.Target then
+				if Mouse.Target.Parent:FindFirstChild('Humanoid') then
+					if HoldClick then
+						if not CurrentlyPressed then
+							CurrentlyPressed = true
+							mouse1press()
+						end
+					else
+						mouse1click()
+					end
+				else
+					if HoldClick then
+						CurrentlyPressed = false
+						mouse1release()
+					end
+				end
+			end
+		end
+	end)
+end)
+
+triggerbottab.Name = "triggerbot tab"
+triggerbottab.Parent = Main
+triggerbottab.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+triggerbottab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+triggerbottab.Position = UDim2.new(0.047618866, 0, 0.189579397, 0)
+triggerbottab.Size = UDim2.new(0, 489, 0, 388)
+triggerbottab.Visible = false
+
+UICorner_7.Parent = triggerbottab
+
+Triggerbotbutton.Name = "Trigger bot button"
+Triggerbotbutton.Parent = triggerbottab
+Triggerbotbutton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Triggerbotbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Triggerbotbutton.BorderSizePixel = 10
+Triggerbotbutton.Position = UDim2.new(0.319018394, 0, 0.262886584, 0)
+Triggerbotbutton.Size = UDim2.new(0, 200, 0, 50)
+Triggerbotbutton.Font = Enum.Font.SourceSans
+Triggerbotbutton.Text = "Trigger bot ( - to turn it on and  - to turn it off)"
+Triggerbotbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+Triggerbotbutton.TextScaled = true
+Triggerbotbutton.TextSize = 14.000
+Triggerbotbutton.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 5
+Title.Position = UDim2.new(0.0933343694, 0, 0.0124338791, 0)
+Title.Size = UDim2.new(0, 540, 0, 24)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Ouquix"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+
+UICorner_8.Parent = Title
+
+
+
+local function VYJEOG_fake_script()  
+	local script = Instance.new('LocalScript', Main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "v" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "v" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(VYJEOG_fake_script)()
+local function ZVYUL_fake_script()  
+	local script = Instance.new('LocalScript', Main)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Ouquix Paid script";
+		Text = "Thank you for buying Ouquix, You're whitelisted.";
+		Duration = "9";
+	})
+	
+	
+	
+end
+coroutine.wrap(ZVYUL_fake_script)()
